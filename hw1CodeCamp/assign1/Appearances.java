@@ -11,7 +11,6 @@ public class Appearances {
 	 */
 	private static <T> void countELems(Collection<T> a  , HashMap< T, Integer> map){
 		Iterator<T> iterator = a.iterator();
-
 		while (iterator.hasNext()) {
 			T tmp = iterator.next();
 			if(map.containsKey(tmp)){

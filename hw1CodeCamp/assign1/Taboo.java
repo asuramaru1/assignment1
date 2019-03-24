@@ -27,7 +27,7 @@ public class Taboo<T> {
 				}
 			}
 
-		}
+		} 
 	}
 
 	/**
